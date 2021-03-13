@@ -19,7 +19,6 @@ public class LogTestController {
         log.info("info log={}", name);
         log.warn("trace log={}", name);
         log.error("trace log={}", name);
-
         return "ok";
     }
 }
